@@ -9,7 +9,7 @@ from certbot import interfaces
 from certbot.plugins import dns_common
 from certbot.plugins import dns_common_lexicon
 
-from urllib2 import urlopen
+from urllib.request import urlopen
 
 logger = logging.getLogger(__name__)
 
