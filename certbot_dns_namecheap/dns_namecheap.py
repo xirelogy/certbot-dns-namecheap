@@ -67,7 +67,6 @@ class Authenticator(dns_common.DNSAuthenticator):
 
 class ncProvider(namecheap.Provider):
     def authenticate(self):
-        self.domain = self.options['domain']
         super(ncProvider, self).authenticate()
 
 class _NamecheapLexiconClient(dns_common_lexicon.LexiconClient):
