@@ -10,6 +10,7 @@ from certbot.plugins import dns_common
 from certbot.plugins import dns_common_lexicon
 
 from urllib.request import urlopen
+from json import load
 
 logger = logging.getLogger(__name__)
 
